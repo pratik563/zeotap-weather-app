@@ -95,13 +95,6 @@ The frontend app will be running at `http://localhost:5173`.
 
 The project uses SQLite for storing weather data. The SQLite database file is automatically created in the `backend` directory when the project is run. You can replace it with MongoDB by updating the backend configuration.
 
-### 7. Deployment
-
-If deploying the project, ensure you:
-
-- **Do not share** the `.env` file containing your API keys.
-- Update the environment variables in your deployment environment to include the OpenWeatherMap API key.
-
 ## Future Enhancements
 
 - Add more detailed weather data (humidity, wind speed, etc.).
