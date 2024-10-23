@@ -3,7 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
-const Weather = require("./models/Weather");
+const Weather = require("../models/Weather"); // This should point to the Weather model file
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -19,7 +19,6 @@ const cities = [
   "Kolkata",
   "Hyderabad",
 ];
-const Weather = require("./models/Weather"); // Import Weather model
 
 app.get("/api/weather", async (req, res) => {
   try {
