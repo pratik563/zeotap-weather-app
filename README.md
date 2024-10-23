@@ -23,6 +23,15 @@ To run this project locally, ensure you have the following installed:
 
 - Node.js (v14 or higher)
 - npm (Node Package Manager)
+- axios: for making HTTP requests.
+- cors: for enabling cross-origin resource sharing.
+- dotenv: for managing environment variables.
+- express: for setting up the backend server.
+- mongoose: for interacting with MongoDB.
+- nodemailer: for sending email notifications (if implemented).
+
+- Tailwind CSS
+- Vite
 
 ## Project Setup
 
