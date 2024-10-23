@@ -14,7 +14,7 @@ This project is a real-time weather monitoring system that fetches data from the
 
 - **Frontend**: Vite, React.js, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: SQLite (or MongoDB)
+- **Database**: MongoDB Atlas
 - **API**: OpenWeatherMap API
 
 ## Prerequisites
