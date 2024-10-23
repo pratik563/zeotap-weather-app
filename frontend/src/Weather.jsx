@@ -66,7 +66,7 @@ const Weather = () => {
                     : ""
                 }`}
               >
-                <h2 className="text-xl text-center font-semibold mb-2">
+                <h2 className="text-2xl text-center font-semibold mb-2">
                   {cityWeather.city}
                 </h2>
                 <img
@@ -77,8 +77,8 @@ const Weather = () => {
                     e.target.onerror = null;
                     e.target.src = "/path/to/fallback.png"; // Fallback image URL
                   }}
-                />
-
+                />{" "}
+                <br />
                 <p className="text-lg">
                   <strong>
                     {convertTemp(cityWeather.temp)}°{isCelsius ? "C" : "F"}
@@ -88,9 +88,9 @@ const Weather = () => {
                     {convertTemp(cityWeather.feels_like)}°
                     {isCelsius ? "C" : "F"}
                   </strong>
-                </p>
-
-                <p className="text-gray-900 text-center ">
+                </p>{" "}
+                <br />
+                <p className="text-gray-900 text-center font-semibold ">
                   Condition: {cityWeather.main}
                 </p>
                 {cityWeather.alert && (
