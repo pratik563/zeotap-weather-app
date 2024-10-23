@@ -6,7 +6,7 @@ This project is a real-time weather monitoring system that fetches data from the
 
 - Displays real-time weather information for selected Indian cities.
 - Fetches data from the OpenWeatherMap API at configurable intervals.
-- Uses SQLite (or MongoDB) to store weather data.
+- Uses MongoDB Atlas to store weather data.
 - Provides weather alerts when temperature thresholds are crossed.
 - Visually appealing UI built with Tailwind CSS.
 
